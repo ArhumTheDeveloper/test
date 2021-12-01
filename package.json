@@ -1,0 +1,26 @@
+{
+  "name": "witty-chat",
+  "version": "0.2.7",
+  "description": "WittyChat, the next generation videochat",
+  "repository": "https://github.com/ArhumTheDeveloper/WittyChat-Beta-2",
+  "homepage": "wittychatclient.com",
+  "author": "Arhum Raja",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "add": "^2.0.6",
+    "dotenv": "10.0.0",
+    "ejs": "^3.1.6",
+    "express": "4.17.1",
+    "peer": "^0.6.1",
+    "peerjs": "^1.3.2",
+    "socket.io": "4.3.2",
+    "socket.io-client": "^4.4.0",
+    "synp": "1.9.8",
+    "typescript": "4.4.4",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "nodemon ./server.js && peerjs --port 3001"
+  }
+}
